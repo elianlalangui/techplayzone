@@ -1,9 +1,9 @@
 import {Pool} from 'pg';
 
 export const pool = new Pool({
-    user: 'postgres',
-    host:'localhost',
-    password: '1234',
-    database: 'TechPlayZone',
-    port: 5432
+    user: 'avnadmin',
+    host:'pg-techplayzone-elianlalangui-648f.a.aivencloud.com',
+    password: 'AVNS_bB_El9iT8VQ5W9SyMOB',
+    database: 'defaultdb',
+    port: 22247
 })
