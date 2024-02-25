@@ -18,5 +18,5 @@ app.use(express.urlencoded({extended:false}));
 
 app.use("/api",indexRoutes);
 
-app.listen(3000);
-console.log('Server on port', 3000);
+app.listen(22247);
+console.log('Server on port', 22247);
